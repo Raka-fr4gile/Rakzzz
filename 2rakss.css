@@ -1,0 +1,92 @@
+/* General Styling */
+body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    background-color: #f9f5fc;
+    color: #4b0082;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #4b0082;
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-btn {
+    background-color: #ffffff;
+    color: #4b0082;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .nav-btn:hover {
+    background-color: #4b0082;
+    color: #ffffff;
+  }
+  
+  .page {
+    display: none;
+    padding: 20px;
+  }
+  
+  .page.active {
+    display: block;
+  }
+  
+  /* Profile Section */
+  .profile-container {
+    margin-top: 20px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    background-color: #4b0082;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .btn:hover {
+    background-color: #362066;
+  }
+  
+  .big-btn {
+    font-size: 18px;
+    padding: 15px 30px;
+  }
+  
+  /* Sosial Media Section */
+  .instagram-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #4b0082;
+  }
+  
+  .instagram-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  .instagram-link:hover {
+    color: #362066;
+  }
+  
